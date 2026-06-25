@@ -6,8 +6,8 @@ Input validation and sanitization module for SAGE.
 This is the core "cybersecurity" feature of the project: every piece
 of user input is checked BEFORE it reaches the NLP engine. This
 demonstrates a practical understanding of input validation - a
-foundational concept in OWASP's Top 10 (Injection is #3 on the
-2021 list).
+foundational concept in OWASP's Top 10 (Injection is #5 on the
+2026 list).
 
 What this blocks:
 1. Script injection patterns (e.g. <script>, javascript:, onerror=)

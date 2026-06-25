@@ -8,14 +8,6 @@ than a deep-learning NLP model. Resume claim covers "NLP concepts" -
 intent classification via keyword matching IS a real, foundational
 NLP technique (used in early chatbots and still used in many
 production rule-based assistants for simple, bounded domains).
-
-Interview talking point:
-"I used a rule-based intent matching approach rather than a heavy
-ML model, since the assistant's task domain is narrow and bounded.
-Each user message is tokenized and matched against intent keyword
-sets, then routed to a handler function. This is the same underlying
-concept used in early NLP systems (intent classification), just
-without a trained statistical model."
 """
 
 import re

@@ -1,4 +1,4 @@
-# SAGE — Cyber AI Assistant (GUI-Based)
+# SAGE — Cyber Assistant (GUI-Based)
 
 A desktop AI assistant built in Python with a PyQt5 GUI, focused on
 demonstrating practical, foundational cybersecurity concepts alongside

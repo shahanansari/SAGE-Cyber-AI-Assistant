@@ -1,20 +1,3 @@
-"""
-auth.py
---------
-Basic local authentication module for SAGE.
-
-Design choice: For a desktop assistant tool (not a networked service),
-storing a single local hashed credential is a reasonable, explainable
-approach. Passwords are never stored or compared in plaintext - we use
-SHA-256 hashing.
-
-In an interview, you can explain this as:
-"I implemented a basic authentication gate using SHA-256 password
-hashing. It's not meant to be enterprise-grade auth - it demonstrates
-the concept of not storing/comparing plaintext credentials, which is a
-fundamental security practice."
-"""
-
 import hashlib
 import json
 import os

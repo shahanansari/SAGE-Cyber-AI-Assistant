@@ -16,12 +16,6 @@ What this blocks:
    this is NOT malware detection, it's a keyword-based content filter
    to demonstrate the concept of flagging suspicious input)
 4. Command injection patterns (e.g. ;rm -rf, &&, |, backticks)
-
-Interview talking point:
-"This isn't a production-grade WAF - it's a rule-based filter that
-demonstrates the OWASP Top 10 concept of input validation. I used
-regex pattern matching to flag common injection signatures before
-input reaches the response engine."
 """
 
 import re
